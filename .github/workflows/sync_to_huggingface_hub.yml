@@ -17,4 +17,5 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://Ashu333:$HF_TOKEN@huggingface.co/spaces/Ashu333/Gemini_ChatBot_App main
+        run: git push --force https://Ashu333:$HF_TOKEN@https://huggingface.co/spaces/Ashu333/Gemini_ChatBot_App main
+        
